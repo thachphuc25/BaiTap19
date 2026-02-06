@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bai Tap 19</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <aside class="info">
+        <img src="img/IMG_4769.JPG" alt="Avatar" />
+        <h2>Thạch Phúc</h2>
+        <p>MSSV: <span id="mssv">231A010438</span></p>
+
+        <form id="taskForm">
+          <input
+            type="text"
+            id="taskName"
+            placeholder="Tên công việc"
+            required
+          />
+          <select id="priority">
+            <option value="1">1 - Quan trọng & Khẩn cấp</option>
+            <option value="2">2 - Quan trọng - Không khẩn cấp</option>
+            <option value="3">3 - Không quan trọng - Khẩn cấp</option>
+            <option value="4">4 - Không quan trọng - Không khẩn cấp</option>
+          </select>
+          <button type="submit">Thêm</button>
+        </form>
+      </aside>
+
+      <section class="board">
+        <div class="box" id="p1">
+          <h3>Quan trọng & Khẩn cấp</h3>
+          <ul></ul>
+        </div>
+        <div class="box" id="p2">
+          <h3>Quan trọng - Không khẩn cấp</h3>
+          <ul></ul>
+        </div>
+        <div class="box" id="p3">
+          <h3>Không quan trọng - Khẩn cấp</h3>
+          <ul></ul>
+        </div>
+        <div class="box" id="p4">
+          <h3>Không quan trọng - Không khẩn cấp</h3>
+          <ul></ul>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
